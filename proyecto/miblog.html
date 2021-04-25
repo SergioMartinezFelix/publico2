@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Blog</title>
+        <link href="cssBlog.css" rel="stylesheet">
+    </head>
+    
+    <body>
+
+        <div id="menu">
+            <ul>
+            <div>
+              <li><a href="#">Home</a></li>
+              <li><a href="sinTerminar.html">Cambio</a></li>
+              <li><a href="#">Acceso Privado</a></li>
+              <li><a href="#">Lugares de interés</a></li>
+            </div>
+            </ul>
+          </div>
+
+        <!-- primera seccion empieza -->
+        <div class="section">
+            <h1><span>Visite Málaga</span></h1>
+            <p>
+                Málaga <strong>milenaria y cosmopolita</strong> en el pasado, conserva intactas sus raíces históricas. Si en tiempos remotos fue testigo de los orígenes del hombre y de la cultura mediterránea, hoy convertida en primera potencia de la industria turística andaluza, mantiene viva su tradición de tierra acogedora y creativa.
+
+                <br><br>Málaga <strong>marinera en su litoral</strong> donde nunca es invierno; de vocación serrana, tierra adentro, donde la naturaleza se muestra en todo su esplendor. Pueblos blancos de hermosa arquitectura, envueltos en románticas leyendas, ponen su punto de luz en los recónditos valles donde la vida discurre plácidamente. Y desde la alta sierra la mirada abarca el horizonte hasta perderse en la inmensidad azul del mar.
+            </p>
+            <p class="quote">Sergio Martínez Félix</p>
+        </div>
+        <!-- termina primera seccion  -->
+
+        <div id="quinta-seccion">
+            <div id="quinta-seccion-izquierda">
+                <h3>Costa del sol Costa de Golf</h3>
+                <hr>
+                <p>
+                    Bañada por el mar Mediterráneo, la Costa del Sol abarca más de 150 kilómetros de litoral con una media de 325 días de sol al año
+                </p>
+                <a href="#" class="btn-verde">Más información</a>
+            </div>
+            <div id="quinta-seccion-derecha">
+                <img src="mijas.jpg" alt="">
+                <img src="nerja.jpg" alt="">
+                <img src="puertobanus.jpg" alt="">
+                <img src="ronda.jpg" alt="">
+            </div>
+        </div>
+
+
+
+        
+        <!-- empiezan los horarios -->
+        <div class="section">
+            <h1><span>Málaga en 5 días</span></h1>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Málaga</th>
+                    <th>Ronda</th>
+                    <th>Marbella</th>
+                    <th>Nerja</th>
+                    <th>Benalmadena</th>
+                </tr>
+                <tr>
+                    <td>Primera parada</td>
+                    <td>Pasear por el centro histórico de Málaga</td>
+                    <td>Paseo por la Plaza de la Merced y Alameda del Tajo</td>
+                    <td>Pasea y visita las exclusivas tiendas de Puerto Banús</td>
+                    <td>Disfruta de las vistas del Balcón de Europa</td>
+                    <td>Visita el castillo de Colomares</td>
+                </tr>
+                <tr>
+                    <td>Segunda parada</td>
+                    <td>Subir al Castillo de Gibralfaro en Málaga</td>
+                    <td>Puente Viejo</td>
+                    <td>No te pierdas el casco antiguo de Marbella.</td>
+                    <td>Enamorarte del centro de Nerja</td>
+                    <td>Conoce el mariposario y el templo budista</td>
+                </tr>
+                <tr>
+                    <td>Tercera parada</td>
+                    <td>Teatro romano y Alcazaba</td>
+                    <td>Jardines de Cuenca o de la Mina</td>
+                    <td>Disfruta de una buena paella</td>
+                    <td class="selected">* Visita las Cuevas de Nerja</td>
+                    <td>Visita el Castillo Pil Pil y tapea en la playa</td>
+                </tr>
+                <tr>
+                    <td>Cuarta parada</td>
+                    <td class="selected">* Catedral de Málaga</td>
+                    <td>Visita a Setenil de las Bodegas</td>
+                    <td>Consigue un bronceado magnífico en Bounty Beach.</td>
+                    <td>No olvides visitar Frigiliana</td>
+                    <td>Toma algo en Puerto Marina</td>
+                </tr>
+                <tr>
+                    <td>Quinta parada</td>
+                    <td class="selected">* Museos de Málaga</td>
+                    <td>Visita a Juzcar</td>
+                    <td>De compras a la Cañada</td>
+                    <td>Disfruta de la puesta de sol</td>
+                    <td>Disfruta del ocio nocturno de la Costa del Sol</td>
+                </tr>
+            </table>
+            <br><br>
+            <p class="quote">* Reserva anticipada recomendada</p>
+        </div>
+        <!-- terminan los horarios -->
+               
+         <!-- empieza el video -->
+        <div class="section">
+            <h1><span>Video promocional</span></h1>
+            <iframe height="150" width="300" src="somos2.mp4" allowfullscreen frameborder="0"></iframe>
+        </div>
+        <!-- termina el video -->
+        
+        <!-- formulario -->
+       <div class="section">
+            <h1><span>Contacto</span></h1>
+            
+            <svg class="face" height="100" width="100">
+                <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+                <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+                <circle cx="30" cy="30" r="5" fill="#000000"/>
+                <circle cx="70" cy="30" r="5" fill="#000000"/>
+                <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+            </svg>
+                 
+            <form>
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" required ></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <!-- termina el formulario -->
+        
+        <!-- follow me empieza -->
+        <div class="section" id="contacts">
+            <h1><span>Follow Me</span></h1>
+            <div>
+                <a href="#">
+                    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+                </a>
+                <a href="#">
+                    <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+                </a>
+            </div>
+        </div>
+        <!-- follow me termina -->
+        
+        <div class="copyright">
+            &copy; Turismo Málaga. All rights reserved.
+        </div>
+
+        <h2 class="w3-center">Manual Slideshow</h2>
+        <div>
+
+            <div class="izquierda"> 
+                <h2 class="w3-center">Entre el mar y la sierra discurre la historia de esta peculiar provincia, cuya capital fue testigo del despegue económico y cultural del mediterráneo occidental. La Malaka fenicia se convirtió en un próspero centro comercial. Tras la invasión musulmana del siglo VIII, su territorio se arabiza, se integra, más tarde, en el reino nazarí de Granada y vive un nuevo periodo de apogeo comercial y cultural.</h2>
+
+            </div>
+            <div class="derecha">
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+            <img class="mySlides" src="malaga.jpg" style="width:100%">
+            <img class="mySlides" src="mijas.jpg" style="width:100%">
+            <img class="mySlides" src="nerja.jpg" style="width:100%">
+            <img class="mySlides" src="puertobanus.jpg" style="width:100%">
+        
+            
+        </div>
+    </div>
+        
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+        
+        
+        
+    </body>
+</html>
