@@ -234,8 +234,8 @@ input, textarea {
     color: grey;
 }
 
-.derecha {
-    float:right;
+.centro {
+    float:center;
 }
 .izquierda {
     float:left;

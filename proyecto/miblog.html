@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Blog</title>
+    <link href="cssBlog.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="indexScript.js"></script>
+    <script src="ScriptMarbella.js"></script>
+</head>
+
+<body>
+
+    <div id="menu">
+        <ul>
+            <div>
+                <li><a href="#">Home</a></li>
+                <li><a href="sinTerminarcopia.html">Castillo de Gibralfaro</a></li>
+                <li><a href="#">Acceso Privado</a></li>
+                <li><a href="#">Lugares de interés</a></li>
+            </div>
+        </ul>
+    </div>
+
+    <!-- primera seccion empieza -->
+    <div class="section">
+        <h1><span>Visite Málaga</span></h1>
+        <p>
+            Málaga <strong>milenaria y cosmopolita</strong> en el pasado, conserva intactas sus raíces históricas. Si en
+            tiempos remotos fue testigo de los orígenes del hombre y de la cultura mediterránea, hoy convertida en
+            primera potencia de la industria turística andaluza, mantiene viva su tradición de tierra acogedora y
+            creativa.
+
+            <br><br>Málaga <strong>marinera en su litoral</strong> donde nunca es invierno; de vocación serrana, tierra
+            adentro, donde la naturaleza se muestra en todo su esplendor. Pueblos blancos de hermosa arquitectura,
+            envueltos en románticas leyendas, ponen su punto de luz en los recónditos valles donde la vida discurre
+            plácidamente. Y desde la alta sierra la mirada abarca el horizonte hasta perderse en la inmensidad azul del
+            mar.
+        </p>
+        <p class="quote">Sergio Martínez Félix</p>
+    </div>
+    <!-- termina primera seccion  -->
+
+    <div id="quinta-seccion">
+        <div id="quinta-seccion-izquierda">
+            <h3>Costa del sol Costa de Golf</h3>
+            <hr>
+            <p>
+                Bañada por el mar Mediterráneo, la Costa del Sol abarca más de 150 kilómetros de litoral con una media
+                de 325 días de sol al año
+            </p>
+            <a href="#" class="btn-verde">Más información</a>
+        </div>
+        <div id="quinta-seccion-derecha">
+            <img src="mijas.jpg" alt="">
+            <img src="nerja.jpg" alt="">
+            <img src="puertobanus.jpg" alt="">
+            <img src="ronda.jpg" alt="">
+        </div>
+    </div>
+
+
+
+
+    <!-- empiezan los horarios -->
+    <div class="section">
+        <h1><span>Málaga en 5 días</span></h1>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Málaga</th>
+                <th>Ronda</th>
+                <th>Marbella</th>
+                <th>Nerja</th>
+                <th>Benalmadena</th>
+            </tr>
+            <tr>
+                <td>Primera parada</td>
+                <td>Pasear por el centro histórico de Málaga</td>
+                <td>Paseo por la Plaza de la Merced y Alameda del Tajo</td>
+                <td>Pasea y visita las exclusivas tiendas de Puerto Banús</td>
+                <td>Disfruta de las vistas del Balcón de Europa</td>
+                <td>Visita el castillo de Colomares</td>
+            </tr>
+            <tr>
+                <td>Segunda parada</td>
+                <td>Subir al Castillo de Gibralfaro en Málaga</td>
+                <td>Puente Viejo</td>
+                <td>No te pierdas el casco antiguo de Marbella.</td>
+                <td>Enamorarte del centro de Nerja</td>
+                <td>Conoce el mariposario y el templo budista</td>
+            </tr>
+            <tr>
+                <td>Tercera parada</td>
+                <td>Teatro romano y Alcazaba</td>
+                <td>Jardines de Cuenca o de la Mina</td>
+                <td>Disfruta de una buena paella</td>
+                <td class="selected">* Visita las Cuevas de Nerja</td>
+                <td>Visita el Castillo Pil Pil y tapea en la playa</td>
+            </tr>
+            <tr>
+                <td>Cuarta parada</td>
+                <td class="selected">* Catedral de Málaga</td>
+                <td>Visita a Setenil de las Bodegas</td>
+                <td>Consigue un bronceado magnífico en Bounty Beach.</td>
+                <td>No olvides visitar Frigiliana</td>
+                <td>Toma algo en Puerto Marina</td>
+            </tr>
+            <tr>
+                <td>Quinta parada</td>
+                <td class="selected">* Museos de Málaga</td>
+                <td>Visita a Juzcar</td>
+                <td>De compras a la Cañada</td>
+                <td>Disfruta de la puesta de sol</td>
+                <td>Disfruta del ocio nocturno de la Costa del Sol</td>
+            </tr>
+        </table>
+        <br><br>
+        <p class="quote">* Reserva anticipada recomendada</p>
+    </div>
+    <!-- terminan los horarios -->
+
+    <!-- empieza el video -->
+    <div class="section">
+        <h1><span>Video promocional</span></h1>
+        <iframe height="150" width="300" src="somos2.mp4" allowfullscreen frameborder="0"></iframe>
+    </div>
+    <!-- termina el video -->
+
+    <!-- formulario -->
+    <div class="section">
+        <h1><span>Contacto</span></h1>
+
+        <svg class="face" height="100" width="100">
+            <circle cx="50" cy="50" r="50" fill="#FDD835" />
+            <circle cx="30" cy="30" r="10" fill="#FFFFFF" />
+            <circle cx="70" cy="30" r="10" fill="#FFFFFF" />
+            <circle cx="30" cy="30" r="5" fill="#000000" />
+            <circle cx="70" cy="30" r="5" fill="#000000" />
+            <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+        </svg>
+
+        <form>
+            <input name="name" placeholder="Name" type="text" required /><br />
+            <input name="email" placeholder="Email" type="email" required /><br />
+            <textarea name="message" placeholder="Message" required></textarea>
+            <input type="submit" value="SEND" class="submit" />
+        </form>
+        <form
+          method="GET"
+          id="ingresar"
+          name="miFormulario"
+          onSubmit="return intentar()"
+        >
+          <label for="apellido"></label>
+          <input
+            type="text"
+            id="usr"
+            name="formUsuario"
+            placeholder="Nombre Usuario..."
+            required
+          /><br />
+          <label for="apellido"></label>
+          <input
+            type="password"
+            id="clv"
+            name="formClave"
+            placeholder="Contraseña"
+            required
+          /><br />
+          <input type="submit" value="Iniciar Sesión" />
+        </form>
+
+    </div>
+    <!-- termina el formulario -->
+
+    <!-- follow me empieza -->
+    <div class="section" id="contacts">
+        <h1><span>Follow Me</span></h1>
+        <div>
+            <a href="#">
+                <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png" />
+            </a>
+            <a href="#">
+                <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+            </a>
+        </div>
+    </div>
+    <!-- follow me termina -->
+
+    <div class="copyright">
+        &copy; Turismo Málaga. All rights reserved.
+    </div>
+
+    <h2 class="w3-center">Manual Slideshow</h2>
+    <div>
+
+        <p>
+            Entre el mar y la sierra discurre la historia de esta peculiar provincia, cuya capital fue testigo del
+            despegue económico y cultural del mediterráneo occidental. La Malaka fenicia se convirtió en un próspero
+            centro comercial. Tras la invasión musulmana del siglo VIII, su territorio se arabiza, se integra, más
+            tarde, en el reino nazarí de Granada y vive un nuevo periodo de apogeo comercial y cultural.
+        </p>
+        <br>
+        <p>
+            <strong> Usa las flechas de abajo</strong> para ver diferentes fotos de la provincia
+        </p>
+
+        <br><br><br>
+
+        <div class="centro">
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+            <div class="mySlides">
+
+                <img src="malaga.jpg" style="width:100%">
+                <br><br>
+                <p> La plaza de Toros “La Malagueta” fue inaugurada el 11 de junio de 1876 con una corrida en la que
+                    lidió entre otros el mítico torero Rafael Molina “Lagartijo”.
+                    <br><br>
+                    Obra de Joaquín Rucoba, también autor del Mercado de Atarazanas, es de estilo neo mudéjar. Tiene
+                    forma de hexadecágono, cómo se puede observar desde el mirador de Gibralfaro que ofrece unas
+                    hermosas vistas al coso taurino. El ruedo mide 52 metros de diámetro y cuenta con 4 corrales, 10
+                    chiqueros, caballerizas o enfermería, entre otras instalaciones. En la actualidad alberga el Museo
+                    Taurino.
+                    <br><br>
+                    En el mes de agosto acoge su gran evento anual, la Feria Taurina, en la que se puede acceder a un
+                    amplio programa de corridas con grandes figuras del toreo.
+                    Destacar también la corrida Picassiana que se celebra en Semana Santa en la que los toreros lucen
+                    trajes inspirados en el estilo, visión y formas del pintor malagueño.
+                    <br><br>
+                <p>Puedes conocer la ubicación de la Plaza de Toros "La Malagueta" pinchando en este <a
+                        href="https://www.google.es/maps?q=plaza+de+toros+la+malagueta&sxsrf=ALeKk02jLngDD_E2nYGoyvzNAxKoUloQWw:1620128779279&iflsig=AINFCbYAAAAAYJFCGxw4hN_1pmLGSd_SjroxmFAZXtf-&gs_lcp=Cgdnd3Mtd2l6EAEYADIICAAQxwEQrwEyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BAgjECc6CggjEMcBEK8BECc6CwgAELEDEMcBEKMCOgUIABCxAzoNCAAQhwIQxwEQrwEQFDoLCAAQsQMQxwEQrwE6CggAEIcCELEDEBQ6AggAOggIABCxAxCDAToHCAAQhwIQFFDtAlicImCgM2gAcAB4BIABigWIAcotkgELMC4zLjMuNS40LjKYAQCgAQGqAQdnd3Mtd2l6&um=1&ie=UTF-8&sa=X&ved=2ahUKEwimoMOG-q_wAhV3DGMBHTvoAFwQ_AUoAXoECAEQAw"
+                        target=”_blank”>link.
+                    </a></p>
+                </p>
+            </div>
+
+            <div class="mySlides">
+
+                <img src="plaza.jpg" style="width:100%">
+                <br><br>
+                <p>
+                    La peculiaridad que encontramos en la capital de la provincia de Málaga, es que sus monumentos más
+                    singulares se concentran en la zona conocida como centro histórico. Iglesias, conventos y palacios
+                    de gran valor cultural y artístico forman este conjunto de calles, la mayoría de ellas peatonales y
+                    de aire moruno. Esto propicia un paseo agradable donde el ambiente de las terrazas de bares y
+                    restaurantes se convierte en el gran protagonista.
+                    <br><br>
+                    Sin duda, la famosa Calle Larios es el eje central del casco histórico y la mayoría del resto de
+                    calles desembocan aquí. Conforma el núcleo de la actividad social del barrio y es también punto de
+                    referencia comercial y económica. Dedicada a los viandantes, cuenta con las más famosas y populares
+                    tiendas de ropa y decoración, lo que resulta el lugar perfecto para una mañana de compras y ocio.
+                    Durante el mes de agosto, las calles del casco histórico se convierten en una fiesta llena de color,
+                    música y folclore andaluz con la celebración de la famosa Feria de Málaga. ¡No os lo podéis perder!
+                    <br><br>
+                <p>Puedes conocer la ubicación del centro histórico de Málaga pinchando en este <a
+                        href="https://www.google.com/maps/place/Calle+Marqu%C3%A9s+de+Larios,+M%C3%A1laga/@36.7194687,-4.4237637,17z/data=!3m1!4b1!4m5!3m4!1s0xd72f795b1a4f35f:0xf3d44789b8b0e006!8m2!3d36.7194687!4d-4.421575"
+                        target=”_blank”>link.
+                    </a></p>
+
+                </p>
+
+            </div>
+
+            <div class="mySlides">
+
+                <img src="nerja.jpg" style="width:100%">
+                <br><br>
+                <p>
+                    Nerja es internacionalmente conocida por sus espectaculares playas. Es por esto que te hemos
+                    elaborado la mejor guia para visitar las playas de Nerja.
+                    <br><br>
+                    Encuentra la mejor zona para disfrutar de un magnifico dia de sol y playa. En Nerja encontraras
+                    playas para pasar un domingo en familia, playas para ir con amigos con chiringuitos de playa para
+                    tomar unas cervecitas, playas mas escondidas, playas de arena fina y playas con rocas.
+                    <br><br>
+                    Tambien podras disfrutar de playas virgenes escondidas en los acantilados de maro. Playas nudistas
+                    junto a la costa de Granada y playas salvajes.
+                    <br><br>
+                <p>Puedes conocer la ubicación de Nerja pinchando en este <a
+                        href="https://www.google.com/maps?q=balcon+de+europa&sxsrf=ALeKk018zbnOd_H-463VsPvbN6_sroKFUQ:1620131068898&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEIcCEBQyAggAMg0IABCHAhDHARCvARAUMgIIADICCAAyAggAMggIABDHARCvATICCAAyAggAMggIABDHARCvAToHCAAQRxCwAzoECCMQJzoGCCMQJxATOgcIABCxAxBDOg4IABCxAxCDARDHARCjAjoLCAAQsQMQxwEQowI6CAgAELEDEIMBOgIILjoECAAQQzoKCAAQxwEQrwEQQzoHCC4QsQMQQzoECC4QQzoFCC4QsQM6CwgAELEDEMcBEK8BOgIIJjoGCAAQFhAeUO79EljukxNgtJkTaAVwAngAgAGKAogB0RmSAQYwLjE3LjKYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&uact=5&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjtp7Pdg7DwAhUly4UKHdARDpgQ_AUoAXoECAEQAw"
+                        target=”_blank”>link.
+                    </a></p>
+
+                </p>
+            </div>
+
+            <div class="mySlides">
+
+                <img src="caminito.jpg" style="width:100%">
+                <br><br>
+
+                <p>
+                    El Paraje Natural Desfiladero de los Gaitanes se encuentra en el centro de la provincia, entre los
+                    municipios de Álora, Antequera y Ardales. Constituye uno de los paisajes más espectaculares de la
+                    sierra malagueña, con paredes escarpadas y de altura considerable, entre las que discurre el río
+                    Guadalhorce después de pasar por los embalses de El Chorro, Guadalhorce, Guadalteba y Gaitanejo.
+                    <br><br>
+                    El Desfiladero de los Gaitanes es un cañón excavado por el río Guadalhorce en el término municipal
+                    de Álora, con acceso desde el norte por los embalses del Guadalhorce y desde el sur por El Chorro,
+                    que en algunos puntos sólo tiene 10 metros de anchura y que alcanza los 700 metros de profundidad.
+                    <br><br>
+                <p>Puedes conocer la ubicación del Caminito del Rey pinchando en este <a
+                        href="https://www.google.com/maps?q=caminito+del+rey&sxsrf=ALeKk01Li7Be8VkU0wlM3W3Ok0dmDPgfwg:1620132045077&iflsig=AINFCbYAAAAAYJFO3cShbjNkZLiCu-nGVHJZ-fCoqeXQ&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyAggAMgIIADINCAAQhwIQxwEQrwEQFDICCAAyAggAMgIIADICCAAyAggAOgQIABBDOgoIABDHARCvARBDOgQILhBDOgsIABCxAxDHARCjAjoOCAAQsQMQgwEQxwEQrwE6BQgAELEDOgUILhCxAzoHCAAQhwIQFDoNCAAQsQMQxwEQrwEQQzoICAAQxwEQrwFQtgFYww9gzBJoAHAAeACAAeUBiAHHFJIBBjAuMTMuM5gBAKABAaoBB2d3cy13aXo&uact=5&um=1&ie=UTF-8&sa=X&ved=2ahUKEwirh9aZhrDwAhUvA2MBHUJQDUsQ_AUoAXoECAEQAw"
+                        target=”_blank”>link.
+                    </a></p>
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
